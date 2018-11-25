@@ -3,9 +3,11 @@ body {
   color: #0000000;
   font-size: 16px;
   line-height: 1.2;
+  margin-bottom: : 2em;
 }
+
 body {
-  background-image: url(/user/paulacain/projects/css-exercise-two/images/instagram-pic.jpg);
+  background-image: url(https://github.com/PaulACain/css-exercise-two/blob/master/images/instagram-pic.jpg);
 }
 
 nav {
@@ -13,10 +15,13 @@ nav {
   float: left;
   position: fixed;
   width: 100%;
+  margin: 1em;
 }
+
 
 header {
   font-size: 2em;
+  float: left;
 }
 
 ul:link {
@@ -25,10 +30,13 @@ ul:link {
 
 h1 {
   font-size: 1.3em;
+  margin bottom: : 1.5em;
+  margin-top: 1.5em;
 }
 
 h3 {
-  font-size: 1.5em;
+  font-size: 75%;
+  margin-top: 1em;
 }
 p {
   font-size: 100%;
@@ -53,6 +61,13 @@ p {
   width: 50%;
 }
 
+.author {
+  font-size: 50%;
+  font-style: italic;
+  margin-bottom: 1em;
+  margin-top: 2em;
+}
+
 .right {
   float: right;
 }
@@ -67,15 +82,24 @@ li:hover {
   background: pink;
 }
 
+figcaption {
+  font-size: 50%;
+}
+
 li {
   float: right;
   padding: 30px;
   color: black;
-  text-decoration: none;
+  text-decoration:none:
 }
 
 article {
   padding-top: 100px;
+}
+
+a:link {
+  text-decoration: none;
+  color: black
 }
 
 .container {
