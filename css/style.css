@@ -1,6 +1,11 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #0000000;
+  color: #0000000;
+  font-size: 16px;
+  line-height: 1.2;
+}
+body {
+  background-image: url(/user/paulacain/projects/css-exercise-two/images/instagram-pic.jpg);
 }
 
 nav {
@@ -8,6 +13,26 @@ nav {
   float: left;
   position: fixed;
   width: 100%;
+}
+
+header {
+  font-size: 2em;
+}
+
+ul:link {
+  color: #0000000;
+}
+
+h1 {
+  font-size: 1.3em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+p {
+  font-size: 100%;
+  line-height: 1.5em;
 }
 
 .logo {
@@ -35,11 +60,18 @@ nav {
 ul {
   list-style-type: none;
   float: right;
+  text-decoration: none;
+}
+
+li:hover {
+  background: pink;
 }
 
 li {
   float: right;
   padding: 30px;
+  color: black;
+  text-decoration: none;
 }
 
 article {
